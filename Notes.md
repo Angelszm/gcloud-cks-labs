@@ -29,6 +29,13 @@ And join kubeadm with master on worker node
 ```
 
 
+To Open Ports between 30000~40000
+```
+gcloud compute firewall-rules create nodeports --allow tcp:30000-40000
+```
+
+
+Killer Code Access
 
 
 
